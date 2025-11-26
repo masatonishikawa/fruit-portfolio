@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>マイカート</title>
+  <link rel="stylesheet" href="css\cart.css">
+  <link rel="stylesheet" href="css\hamburgermenu.css">
+</head>
+
+<body>
+  <div class="cart-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+
+    <button id="menu-btn" class="menu-btn">
+      <span class="material-symbols-outlined">menu</span>
+    </button>
+
+    <nav id="menu-panel" class="menu-panel">
+      <ul>
+        <li><a href="index.html">ホーム</a></li>
+        <li><a href="cart-page.html">カート</a></li>
+        <li><a href="contact.html">お問い合わせ</a></li>
+      </ul>
+    </nav>
+  </div>
+  
+  <div class="cart-container">
+    <section class="cart-summary">
+      <h2>合計金額(税込)</h2>
+      <p id="total-price">0円</p>
+      <button class="checkout-btn">レジへ進む</button> <!-- ダミーアイコン -->
+    </section>
+
+    <ul id="item"></ul>
+  </div>
+  <script type="module" src="js/cart.js"></script>
+  <script src="js/hamburgermenu.js"></script>
+</body>
+
+</html>

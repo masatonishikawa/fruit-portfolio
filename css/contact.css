@@ -1,0 +1,178 @@
+body {
+  background-color: #fffbea;
+  /* margin: 0; */
+  max-width: 900px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+section {
+  margin-left: 16px;
+  max-width: 900px;
+}
+
+
+h1 {
+  text-align: center;
+  color: red;
+}
+
+h2 {
+  color: red;
+  margin: 32px 16px;
+}
+
+ul .required {
+  width: 48px;
+  background-color: red;
+  color: white;
+  margin-top: 8px;
+  justify-content: center;
+}
+
+.form-input {
+  display: block;
+  width: 100%;
+  height: 48px;
+  font-size: 16px;
+}
+
+.inquiry-forms {
+  width: 100%;
+}
+
+
+
+.inquiry-title {
+  margin-left: 8px;
+  width: 144px;
+  /* background-color: #FAF0E6; */
+}
+
+#inquiry-details {
+  resize: none;
+  display: block;
+  width: 100%;
+}
+
+/* 任意ボタン */
+.any {
+  width: 48px;
+  text-align: center;
+  background-color: orange;
+  color: white;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+/* 入力内容の確認ボタン */
+.input-content {
+  width: 400px;
+  font-size: 32px;
+  background-color: red;
+  color: white;
+  margin-bottom: 16px;
+}
+
+.confirmation-container {
+  margin-top: 32px;
+  text-align: center;
+}
+
+.container li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.age {
+  width: 80px;
+  height: 48px;
+  font-size: 16px;
+}
+
+.inquiry-container {
+  display: flex;
+  border-right: 1px solid #DCDCDC;
+  border-left: 1px solid #DCDCDC;
+  border-bottom: 1px solid #DCDCDC;
+}
+
+#extra {
+  border-top: 1px solid #DCDCDC;
+}
+
+.post-code {
+  display: flex;
+}
+
+/* 件名のテキストエリアとサイズを合わせている */
+#inquiry-details {
+  height: 300px;
+}
+
+.inquiry {
+  width: 640px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* 件名の幅と合わせている */
+.inquiry-item {
+  width: 240px;
+  padding: 0;
+}
+
+.inquiry-item input {
+  height: 48px;
+  font-size: 16px;
+}
+
+.text {
+  width: 40px;
+  margin: 0;
+}
+
+.inquiry-item:last-child {
+  padding-left: 24px;
+}
+
+.address {
+  display: flex;
+  justify-content: space-between;
+}
+
+.address input {
+  height: 48px;
+  font-size: 16px;
+  margin-right: 8px;
+}
+
+.address button {
+  font-size: 16px;
+}
+
+.pref-label {
+  margin: 0;
+}
+
+.pref-label p {
+  margin: 0;
+}
+
+.pref-label span {
+  width: 48px;
+  display: flex;
+}
+
+#pref-input {
+  width: 100%;
+  height: 48px;
+  padding: 6px 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
