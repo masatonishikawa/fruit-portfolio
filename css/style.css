@@ -53,7 +53,7 @@ img {
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 480px) {
   h3 {
     font-size: 16px;
   }
