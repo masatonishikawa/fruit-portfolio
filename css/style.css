@@ -54,6 +54,9 @@ img {
 
 
 @media (max-width: 480px) {
+  body {
+    background-color: red;
+  }
   h3 {
     font-size: 16px;
   }
