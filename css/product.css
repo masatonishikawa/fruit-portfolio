@@ -94,4 +94,8 @@ ul.related-products li img {
     display: block;
   }
 
+  ul.related-products li img {
+    width: 120px;
+  }
+
 }
