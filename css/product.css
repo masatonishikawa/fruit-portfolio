@@ -80,3 +80,12 @@ ul.related-products li img {
   width: 150px;
   height: auto;
 }
+
+@media (max-width: 500px) {
+  .container img {
+    height: auto;
+    width: 300px;
+    max-width: 100%;
+  }
+
+}
