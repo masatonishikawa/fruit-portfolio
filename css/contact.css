@@ -176,3 +176,74 @@ ul .required {
   font-size: 16px;
   box-sizing: border-box;
 }
+
+
+@media (max-width: 500px) {
+
+  body {
+    max-width: 500px;
+  }
+
+  h2 {
+    margin: 8px 0 8px 0;
+  }
+
+  .inquiry-title {
+    padding: 0;
+    display: flex;
+    width: 100%;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin: 0;
+    background-color: #DCDCDC;
+  }
+
+  ul .required {
+  margin-top: 0;
+}
+
+  .required {
+    margin-left: 8px;
+    display: flex;
+    align-items: center;
+  }
+
+  .inquiry-container {
+  display: block;
+  /* border-right: 1px solid #DCDCDC;
+  border-left: 1px solid #DCDCDC;
+  border-bottom: 1px solid #DCDCDC; */
+}
+
+.inquiry {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+
+.inquiry-item {
+  margin: 4px;
+}
+
+.inquiry-item input {
+  height: 16px;
+}
+
+.inquiry-item:last-child {
+  padding: 0;
+}
+
+.form-input {
+  height: 24px;
+}
+
+.inquiry-forms {
+  width: 90%;
+  margin: 8px 0 8px 0;
+}
+
+}
