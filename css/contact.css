@@ -179,6 +179,7 @@ h2 {
 }
 
 
+/* スマホ用 */
 @media (max-width: 500px) {
 
   body {
@@ -258,25 +259,31 @@ h2 {
 
   .post-code {
     padding: 0;
+    
+  }
+
+  .post-code li {
+    font-size: 14px;
   }
 
   .address {
-    margin-left: 8px;
+    /* margin-left: 8px; */
     padding: 0;
   }
 
   .address input {
     width:100px;
     height: 32px;
+    margin: 0;
   }
 
   .address button {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   #pref-input {
     height: 32px;
-    margin: 0 8px 0 8px;
+    margin: 0;
   }
 
 }
