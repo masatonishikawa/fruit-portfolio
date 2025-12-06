@@ -25,8 +25,9 @@ h2 {
   margin: 32px 16px;
 }
 
-ul .required {
+.required {
   width: 48px;
+  text-align: center;
   background-color: red;
   color: white;
   margin-top: 8px;
@@ -198,56 +199,84 @@ ul .required {
     background-color: #DCDCDC;
   }
 
-  ul .required {
-  margin-top: 0;
-}
-
   .required {
-    margin-left: 8px;
+    margin: 0 0 0 8px;
+    display: flex;
+    align-items: center;
+  }
+
+  .any {
+    margin: 0 0 0 8px;
     display: flex;
     align-items: center;
   }
 
   .inquiry-container {
-  display: block;
-  /* border-right: 1px solid #DCDCDC;
+    display: block;
+    /* border-right: 1px solid #DCDCDC;
   border-left: 1px solid #DCDCDC;
   border-bottom: 1px solid #DCDCDC; */
-}
+  }
 
-.inquiry {
-  width: 100%;
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0;
-  margin: 0;
-}
+  .inquiry {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+  }
 
-.inquiry-item {
-  margin: 4px;
-}
+  .inquiry-item {
+    margin: 4px;
+  }
 
-.inquiry-item input {
-  height: 16px;
-}
+  .inquiry-item input {
+    height: 16px;
+  }
 
-.inquiry-item:last-child {
-  padding: 0;
-}
+  .inquiry-item:last-child {
+    padding: 0;
+  }
 
-.form-input {
-  height: 24px;
-}
+  .form-input {
+    height: 24px;
+  }
 
-.inquiry-forms {
-  width: 90%;
-  margin: 8px 0 8px 0;
-}
+  .inquiry-forms {
+    width: 90%;
+    margin: 8px 0 8px 0;
+  }
 
-.text {
-  width: auto;
-}
+  .age {
+    height: 32px;
+    width: 64px;
+    margin: 8px 0 8px 0;
+  }
+
+
+  .post-code {
+    padding: 0;
+  }
+
+  .address {
+    margin-left: 8px;
+    padding: 0;
+  }
+
+  .address input {
+    width:100px;
+    height: 32px;
+  }
+
+  .address button {
+    font-size: 16px;
+  }
+
+  #pref-input {
+    height: 32px;
+    margin: 0 8px 0 8px;
+  }
 
 }
