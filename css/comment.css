@@ -1,0 +1,50 @@
+
+.rating {
+  display: flex;
+  align-items: center;
+  user-select: none;
+}
+
+.rating p {
+  margin: 0 0 0 8px;
+}
+
+.rating-level {
+  display: none;
+}
+
+.rating-level + label {
+  padding-left: 4px;
+}
+
+.comment {
+  list-style: none;
+  margin: 0 0 0 8px;
+  padding: 0;
+
+}
+
+.comment p {
+  margin: 8px 0 0 0;
+}
+
+.comment input {
+  width: 80%;
+}
+
+.comment textarea {
+  width: 80%;
+  height: 120px;
+  resize: none;
+}
+
+.comment-btn {
+  width: 100px;
+  height: 32px;
+  font-size: 16px;
+  margin: 8px 0 0 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #ddffff;
+  border-color: #c0c0c0;
+}
