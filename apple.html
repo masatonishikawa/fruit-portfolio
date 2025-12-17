@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="css\product.css">
   <link rel="stylesheet" href="css\carticon.css">
   <link rel="stylesheet" href="css\hamburgermenu.css">
+  <link rel="stylesheet" href="css\comment.css">
 </head>
 
 <body>
@@ -114,8 +115,38 @@
     <li> <img src="photo\fruit_younashi.png" alt="洋梨">
     </li>
   </ul>
+
+    <h2>コメントを残す</h2>
+  <div class="comment-container">
+    <form class="rating">
+      <p>評価:</p>
+      <input type="radio" id="star1" name="rating" value="1" class="rating-level">
+      <label for="star1">☆</label>
+      <input type="radio" id="star2" name="rating" value="2" class="rating-level">
+      <label for="star2">☆</label>
+      <input type="radio" id="star3" name="rating" value="3" class="rating-level">
+      <label for="star3">☆</label>
+      <input type="radio" id="star4" name="rating" value="4" class="rating-level">
+      <label for="star4">☆</label>
+      <input type="radio" id="star5" name="rating" value="5" class="rating-level">
+      <label for="star5">☆</label>
+    </form>
+
+    <ul class="comment">
+      <li>
+        <p>件名</p><input type="text" placeholder="件名を入力してください">
+      </li>
+      <li>
+        <p>本文</p><textarea name="comment" id="comment" placeholder="本文を入力してください"></textarea>
+      </li>
+    </ul>
+
+    <button class="comment-btn">送信する</button>
+  </div>
+
   <script src="js\main.js"></script>
   <script src="js\hamburgermenu.js"></script>
+  <script src="js/comment.js"></script>
 </body>
 
 </html>
